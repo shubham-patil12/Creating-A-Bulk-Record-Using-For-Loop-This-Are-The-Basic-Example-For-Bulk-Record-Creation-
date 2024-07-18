@@ -1,0 +1,10 @@
+for(integer i=0;i<=10;i++){
+        Contact con = new Contact();
+           con.LastName='SFDC123';
+             con.Phone='34567788';
+         insert con;
+      if(con.id!=null){
+ system.debug('Bulk Account Record Created '+con.id);
+ }
+ 
+}
